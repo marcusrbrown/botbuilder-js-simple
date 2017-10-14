@@ -1,0 +1,8 @@
+{
+  "name": "botbuilder-js-simple",
+  "version": "1.0.0",
+  "description": "A simple bot built using the Bot Builder SDK for Node.js.",
+  "main": "app.js",
+  "author": "Marcus R. Brown <me@igetgam.es>",
+  "license": "MIT"
+}
