@@ -391,7 +391,7 @@ botbuilder-stdlib@4.15.0-internal:
   resolved "https://registry.yarnpkg.com/botbuilder-stdlib/-/botbuilder-stdlib-4.15.0-internal.tgz#68a504d1ef8ea96adf8906b2822f1417197e19f7"
   integrity sha512-2nL3+swW4Af97Ofj6uTM8cLzgRQDBgyk89HPGLm80Z6/eCsGkUnOsn4osLiqbNWxfXEpQp5WzQhyzOuNiDqeIw==
 
-botbuilder@~4.15.0:
+botbuilder@4.15.0:
   version "4.15.0"
   resolved "https://registry.yarnpkg.com/botbuilder/-/botbuilder-4.15.0.tgz#f06fa6e448fc4d4788178f0fa122cf7f545fa02f"
   integrity sha512-Gbuua4ezx5Jm0Os//G3ZKDGSg5a8otlFa53yjoqi4UvIJv8S389IxagYJEIP3UKkuXwIwRu4BpwEVG7jdMhIhg==
@@ -713,7 +713,7 @@ domutils@^2.5.2:
     domelementtype "^2.2.0"
     domhandler "^4.2.0"
 
-dotenv@~8.2.0:
+dotenv@8.2.0:
   version "8.2.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
   integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
@@ -1398,7 +1398,7 @@ node-fetch@^2.6.12:
   dependencies:
     whatwg-url "^5.0.0"
 
-nodemon@^2.0.4:
+nodemon@2.0.22:
   version "2.0.22"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.22.tgz#182c45c3a78da486f673d6c1702e00728daf5258"
   integrity sha512-B8YqaKMmyuCO7BowF1Z1/mkPqLk6cs/l63Ojtd6otKjMx47Dq1utxfRxcavH1I7VSaL8n5BUaoutadnsX3AAVQ==
@@ -1565,7 +1565,7 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
-replace@~1.2.0:
+replace@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/replace/-/replace-1.2.2.tgz#880247113a950afa749a297e6d10d4d7bcd27acf"
   integrity sha512-C4EDifm22XZM2b2JOYe6Mhn+lBsLBAvLbK8drfUQLTfD1KYl/n3VaW/CDju0Ny4w3xTtegBpg8YNSpFJPUDSjA==
@@ -1604,7 +1604,7 @@ restify-errors@^8.0.2:
   optionalDependencies:
     safe-json-stringify "^1.0.4"
 
-restify@~8.5.1:
+restify@8.5.1:
   version "8.5.1"
   resolved "https://registry.yarnpkg.com/restify/-/restify-8.5.1.tgz#1cbab41ef6a0990e7abac62a5b12182f591c1a0c"
   integrity sha512-g+xciouvSDg2vmCZuCinztt2mvQynCfnGIE1y8vMjfcUrjBo4AP8DJ9RNheu0mdGpiI0cMoCHYA/GdZ3TEW+DA==
@@ -1953,7 +1953,7 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha512-KXXFFdAbFXY4geFIwoyNK+f5Z1b7swfXABfL7HXCmoIWMKU3dmS26672A4EeQtDzLKy7SXmfBu51JolvEKwtGA==
 
-typescript@^4.0.7:
+typescript@4.9.5:
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
