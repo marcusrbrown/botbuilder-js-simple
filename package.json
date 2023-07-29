@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "botbuilder": "4.20.0",
-    "dotenv": "13.0.1",
+    "dotenv": "15.0.1",
     "replace": "1.2.2",
     "restify": "10.0.0"
   },
