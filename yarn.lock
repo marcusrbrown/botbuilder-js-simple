@@ -1604,10 +1604,10 @@ restify-errors@^8.0.2:
   optionalDependencies:
     safe-json-stringify "^1.0.4"
 
-restify@8.5.1:
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/restify/-/restify-8.5.1.tgz#1cbab41ef6a0990e7abac62a5b12182f591c1a0c"
-  integrity sha512-g+xciouvSDg2vmCZuCinztt2mvQynCfnGIE1y8vMjfcUrjBo4AP8DJ9RNheu0mdGpiI0cMoCHYA/GdZ3TEW+DA==
+restify@8.6.1:
+  version "8.6.1"
+  resolved "https://registry.yarnpkg.com/restify/-/restify-8.6.1.tgz#728d391797e2fe20d6a748737da156a66575796f"
+  integrity sha512-I54/Geo2qN4K/2Ers+zNAU/A/nwPrcoTVBVeamw/sROv/kLLuMAzidLmO3f6842tKFxxQvcNhOMYoWZAhYr3vQ==
   dependencies:
     assert-plus "^1.0.0"
     bunyan "^1.8.12"
