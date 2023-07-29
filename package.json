@@ -4,6 +4,9 @@
   "description": "A simple bot built using the Bot Builder SDK for Node.js.",
   "author": "Marcus R. Brown <me@igetgam.es>",
   "license": "MIT",
+  "engines": {
+    "node": "18.17.0"
+  },
   "main": "./lib/index.js",
   "scripts": {
     "build": "tsc --build",
