@@ -25,7 +25,11 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version-file: package.json
-          cache: yarn
+      - name: Cache Yarn packages
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
+        with:
+          path: 'node_modules'
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
       - run: yarn install --frozen-lockfile --ignore-scripts
       # - run: yarn check-format
       - run: yarn lint
@@ -52,6 +56,10 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version-file: package.json
-          cache: yarn
+      - name: Cache Yarn packages
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
+        with:
+          path: 'node_modules'
+          key: ${{ runner.os }}-yarn-${{ hashFiles('yarn.lock') }}
       - run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn build
