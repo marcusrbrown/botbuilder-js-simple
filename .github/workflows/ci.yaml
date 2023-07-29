@@ -25,10 +25,10 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version-file: package.json
-          cache: npm
-      - run: npm ci --ignore-scripts
-      - run: npm run check-format
-      - run: npm run lint
+          cache: yarn
+      - run: yarn install --frozen-lockfile --ignore-scripts
+      - run: yarn check-format
+      - run: yarn lint
 
   test:
     name: Test
@@ -39,9 +39,9 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version-file: package.json
-          cache: npm
-      - run: npm ci --ignore-scripts
-      - run: npm run test
+          cache: yarn
+      - run: yarn install --frozen-lockfile --ignore-scripts
+      - run: yarn test
 
   build:
     name: Build
@@ -52,6 +52,6 @@ jobs:
         uses: actions/setup-node@e33196f7422957bea03ed53f6fbb155025ffc7b8 # v3.7.0
         with:
           node-version-file: package.json
-          cache: npm
-      - run: npm ci --ignore-scripts
-      - run: npm run build
+          cache: yarn 
+      - run: yarn install --frozen-lockfile --ignore-scripts
+      - run: yarn build
