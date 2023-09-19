@@ -21,7 +21,7 @@
     "url": "https://github.com/marcusrbrown/botbuilder-js-simple"
   },
   "dependencies": {
-    "botbuilder": "4.20.0",
+    "botbuilder": "4.20.1",
     "dotenv": "16.3.1",
     "replace": "1.2.2",
     "restify": "11.1.0"
