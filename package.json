@@ -5,7 +5,7 @@
   "author": "Marcus R. Brown <me@igetgam.es>",
   "license": "MIT",
   "engines": {
-    "node": "18.19.0"
+    "node": "18.19.1"
   },
   "main": "./lib/index.js",
   "scripts": {
